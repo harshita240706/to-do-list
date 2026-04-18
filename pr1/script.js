@@ -10,12 +10,12 @@ function addTask() {
   let li = document.createElement("li");
   li.textContent = taskText;
 
-  // Mark complete on click
+  
   li.onclick = function () {
     li.classList.toggle("completed");
   };
 
-  // Delete button
+  
   let deleteBtn = document.createElement("button");
   deleteBtn.textContent = "X";
   deleteBtn.className = "delete-btn";
